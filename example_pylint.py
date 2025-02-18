@@ -1,6 +1,6 @@
 print("Olá mundo")
 
-def minha_funcao():
+def minhaFuncao():
     ''' Alguma informação '''
     print("Estou na função")
 
