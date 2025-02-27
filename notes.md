@@ -18,3 +18,6 @@ terminal:
 
 # Entities
 Espelho de todos os elementos de armazenamento.
+
+
+# Sessiomn
