@@ -14,3 +14,7 @@ terminal:
 * pytest -s -v 
 
 *O final do nome do arquivo sendo _test e o nome da função de teste iniciando com test_permite ao pytest entender que estamos tratando de testes.*
+
+
+# Entities
+Espelho de todos os elementos de armazenamento.

@@ -11,5 +11,5 @@ class DBConnectionHanler:
     def get_engine(self):
         return self.__engine
 
- # Singleton 
+# Singleton 
 db_connection_handler = DBConnectionHanler()
