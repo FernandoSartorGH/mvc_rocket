@@ -20,4 +20,23 @@ terminal:
 Espelho de todos os elementos de armazenamento.
 
 
-# Sessiomn
+# Session
+
+# Repositories
+Açoes do banco de dados. Select, insert ...
+
+
+# Run pytest
+path: pytest -s -c
+
+unique file: path pytest -s -c src/models/sqlite/repositories/repositories_test.py
+
+
+
+
+
+# MockConnection
+Simula um asessão para não ficar indo no banco de dados
+
+Os teste que batem diretamente no banco de dados são testes de integração comn o banco.
+Nos testes unitários, vamos barrar essas conexão e entrar em um abiente controlado, estabelecendo uma conexão fictícia para entender o que o código está fazendo.
