@@ -1,4 +1,3 @@
-from typing import List
 from abc import ABC, abstractclassmethod
 from src.models.sqlite.entities.people import PeopleTable
 
