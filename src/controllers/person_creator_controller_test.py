@@ -1,7 +1,7 @@
 import pytest
 from .person_creator_controller import PersonCreatorController
 
-class MockPeopleReposotory:
+class MockPeopleRepository:
     def insert_person(self, first_name: str, last_name: str, age: int, pet_id: int):
         pass
 
@@ -13,7 +13,7 @@ def test_create():
         "pet_id": 123
     }
     
-    controller = PersonCreatorController(MockPeopleReposotory())
+    controller = PersonCreatorController(MockPeopleRepository())
     response  = controller.create(person_infos)
 
     assert response["data"]["type"] == "Person"
@@ -28,7 +28,7 @@ def test_create_error():
         "pet_id": 123
     }
     
-    controller = PersonCreatorController(MockPeopleReposotory())
+    controller = PersonCreatorController(MockPeopleRepository())
     
     with pytest.raises(Exception):
         controller.create(person_infos)
