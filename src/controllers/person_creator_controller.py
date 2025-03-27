@@ -1,8 +1,9 @@
 from typing import Dict
 import re
 from src.models.sqlite.interfaces.people_repository import PeopleRepostoryInterface
+from .interfaces.person_creator_controller import PersonCreatorControllerInterface
 
-class PersonCreatorController:
+class PersonCreatorController(PersonCreatorControllerInterface):
     # Inversão da dependência: Associa models com controlers
     def __init__(self, people_repository: PeopleRepostoryInterface) -> None: 
         self.__people_repository = people_repository
