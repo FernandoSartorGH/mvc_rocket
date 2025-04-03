@@ -32,9 +32,6 @@ path: pytest -s -c
 unique file: path pytest -s -c src/models/sqlite/repositories/repositories_test.py
 
 
-
-
-
 # MockConnection
 Simula um asessão para não ficar indo no banco de dados
 
@@ -55,5 +52,9 @@ teste para as views: mocar o controler >> cria um http_request >> valida o retor
 
 
 # Fluxo
-
 view >> controlers > model > view
+
+# Main
+Conecta o projeto à framework.
+Obs.: É diferente de construir o projeto sobree a framework.
+
