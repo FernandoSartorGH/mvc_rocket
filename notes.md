@@ -58,3 +58,5 @@ view >> controlers > model > view
 Conecta o projeto à framework.
 Obs.: É diferente de construir o projeto sobree a framework.
 
+# Blueprint
+Consegue a partie da blueprint é possível daer nomes pra uma certa capacidade de rotas
