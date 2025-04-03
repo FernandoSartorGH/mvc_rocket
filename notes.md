@@ -40,3 +40,14 @@ Simula um asessão para não ficar indo no banco de dados
 
 Os teste que batem diretamente no banco de dados são testes de integração comn o banco.
 Nos testes unitários, vamos barrar essas conexão e entrar em um abiente controlado, estabelecendo uma conexão fictícia para entender o que o código está fazendo.
+
+
+
+# Controllers
+Ações e funções das funcionalidades do projeto.
+
+# Models
+Interações de armazenamento e busca de dados com interação ao banco.
+
+# Views
+Interação com o usuário do sistema
