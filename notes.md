@@ -51,3 +51,9 @@ Interações de armazenamento e busca de dados com interação ao banco.
 
 # Views
 Interação com o usuário do sistema
+teste para as views: mocar o controler >> cria um http_request >> valida o retorno
+
+
+# Fluxo
+
+view >> controlers > model > view
