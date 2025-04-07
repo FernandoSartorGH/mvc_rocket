@@ -1,3 +1,7 @@
+# MVC (Model-View-Controller)
+A arquitetura MVC (Model-View-Controller) é um padrão de arquitetura de software que separa uma aplicação em três componentes principais: Modelo (Model), Visão (View), Controlador (Controller). 
+O MVC é uma abordagem amplamente utilizada no desenvolvimento de aplicações web e desktop. 
+
 # SQL Alchemy
 https://docs.sqlalchemy.org/en/20/core/engines.html
 
